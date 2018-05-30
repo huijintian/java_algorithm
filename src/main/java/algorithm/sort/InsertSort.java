@@ -1,16 +1,17 @@
-package cn.algorithm.sort;
+package algorithm.sort;
 
 /**
  * Created by mengtian on 2018/5/6
  */
-public class BubbleSort {
+public class InsertSort {
     public void sort(int[] list) {
-        if (list == null || list.length < 2) return;
-        for (int i = 0; i < list.length; i++) {
-            for (int j = list.length - 1; j > 0; j--) {
-                //将小的数字往前移
+        for (int i = 0; i < list.length - 1; i++) {
+            //i 之前的为已经排好序的数组。
+            for (int j = i + 1; j > 0; j--) {
                 if (list[j] < list[j - 1]) {
                     swap(list, j, j - 1);
+                } else {
+                    break;
                 }
             }
         }
@@ -23,7 +24,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        BubbleSort sort = new BubbleSort();
+        InsertSort sort = new InsertSort();
         int[] list = new int[]{3, 5, 6, 8, 7, 2, 4};
         sort.sort(list);
         for (int i : list) {

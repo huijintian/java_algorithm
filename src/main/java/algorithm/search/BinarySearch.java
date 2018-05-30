@@ -1,4 +1,4 @@
-package cn.algorithm.search;
+package algorithm.search;
 
 /**
  * Created by mengtian on 2018/5/4

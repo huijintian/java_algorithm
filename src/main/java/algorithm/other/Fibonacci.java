@@ -1,4 +1,4 @@
-package cn.algorithm.other;
+package algorithm.other;
 
 /**
  * Created by mengtian on 2018/5/4

@@ -1,4 +1,4 @@
-package cn.algorithm.sort;
+package algorithm.sort;
 
 /**
  * Created by mengtian on 2018/5/6
