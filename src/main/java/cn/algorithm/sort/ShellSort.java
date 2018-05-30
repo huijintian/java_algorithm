@@ -28,5 +28,7 @@ public class ShellSort {
         for (int i : list) {
             System.out.print(i + "\t");
         }
+        System.out.println("test add");
+
     }
 }

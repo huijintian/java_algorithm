@@ -28,5 +28,7 @@ public class SelectionSort {
         for (int i : sortList) {
             System.out.print(i + "\t");
         }
+        System.out.println("test add");
+
     }
 }

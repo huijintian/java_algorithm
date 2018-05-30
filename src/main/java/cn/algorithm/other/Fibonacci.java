@@ -34,5 +34,6 @@ public class Fibonacci {
         Fibonacci fibo = new Fibonacci();
         System.out.println(fibo.fibonacci(6));
         System.out.println(fibo.fibonacci(6, 1, 1));
+        System.out.println("test add");
     }
 }
